@@ -40,15 +40,15 @@
 }
 
 .articulo {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
-  width: auto;
-  /* elimina width fija para evitar desbordes */
+  /* width: auto; */
+  
 }
 
 .articulo:hover {
   animation-name: mueveImagen;
-  animation-duration: 15s;
+  animation-duration: 10s;
   animation-timing-function: ease-out;
 }
 
